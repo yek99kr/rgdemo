@@ -4,9 +4,13 @@ body {
   padding:0;
 }
 img {
-  position: absolute;
+  position: fixed;
   margin:0;
+}
+.one{
+  left:0;
 }
 .two {
   clip-path: url(#myClip);
+    left:0;
 }
