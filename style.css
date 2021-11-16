@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
+/* .top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  clip-path: url(#myClip);
+  z-index: 2;
+  pointer-events: none;
+}
+.bottom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+} */
+
+img {
+  position: absolute;
+}
+.two {
+  clip-path: url(#myClip);
+}
