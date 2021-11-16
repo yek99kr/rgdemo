@@ -1,13 +1,13 @@
 *{
   margin:0;
+  overflow: hidden;
 }
 body {
-  overflow: hidden;
   margin:0;
   padding:0;
 }
 img {
-  position: fixed;
+  position: absolute;
   margin:0;
 }
 .one{
@@ -16,6 +16,7 @@ img {
 }
 .two {
   clip-path: url(#myClip);
-    left:0;
+   left:0;
   top:0;
+  z-index:2;
 }
